@@ -15,3 +15,53 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 /*
     Add your custom styles here
 */
+
+/* Submenu Column Grid Classes upto 8 */
+
+.submenu-grid-col-2.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.submenu-grid-col-3.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.submenu-grid-col-4.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.submenu-grid-col-5.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.submenu-grid-col-6.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.submenu-grid-col-7.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.submenu-grid-col-8.has-submenu.highlighted + ul {
+    display: grid !important;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+/* Menu Blue Color Link */
+
+.bluelink a {
+    padding: 0px 30px !important;
+    margin: 0 auto !important;
+    width: 90%;
+    border-radius: 3px;
+    background-color: #0098ff !important;
+    color: #fff !important;
+    border-bottom: 0 !important;
+    justify-content: center !important;
+}
